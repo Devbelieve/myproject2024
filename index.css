@@ -1,0 +1,22 @@
+.jumbo-container {
+    padding: 20px;
+    background: 
+    linear-gradient(rgba(21, 127, 225, 0.5), rgba(218, 228, 143, 0.5)), 
+    url('images/cover.jpg') no-repeat center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the background image */
+    width: 100vw; /* Makes the container full width */
+    margin-left: calc(50% - 50vw); /* Centers the container */
+    margin-right: calc(50% - 50vw); /* Ensures no extra space on the right */
+}
+
+
+
+.header-text{
+    font-size: 40px;
+    font-weight: bold;
+
+    border-left: 2px solid red; 
+
+}
